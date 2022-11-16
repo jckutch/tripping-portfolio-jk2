@@ -75,9 +75,9 @@ nav a:hover {
     background-size: 100%;
 }
 
-/* image obtained from Pexels by Gabriela Palai */
+/* image obtained from Pexels */
 .train-hero {
-    height: 600px;
+    height: 750px;
     width: 100%;
     background-size: cover;
     background-position: auto;
@@ -179,7 +179,7 @@ main {
     min-width: 91%;
     flex-basis: auto;
 }
-
+/* images obtained from Pexels */
 .machu {
     background: url(..//images/pexels-sergei-a-2539417.jpg);
     background-size: cover;
@@ -246,6 +246,11 @@ footer {
     text-align: center;
 }
 
+@media screen and (max-width: 1980px) {
+    .train-hero {
+        max-height: 575px;
+}
+}
 @media screen and (max-width: 980px) {
     header {
         max-height: 300px;
@@ -266,11 +271,11 @@ footer {
         font-size: 15px;
     }
     .train-hero {
-        max-height: 200px;
+        max-height: 300px;
     }
     .train-hero h2 {
         justify-content: center;
-        font-size: 20px;
+        font-size: 28px;
     }
     .train-hero div {
         justify-content: center  ;
