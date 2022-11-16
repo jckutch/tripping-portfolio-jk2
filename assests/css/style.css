@@ -33,7 +33,7 @@ header {
 
 header h1 {
     padding: 15px 2% 10px 8%;
-    font-size: 28px;
+    font-size: 35px;
     background-color: #abb4ae;
     height: 75px;
 }
@@ -142,8 +142,9 @@ main {
 }
 
 .main-sections p {
-    color: #2e2f2a;
+    color: #1b1c19;
     font-size: 20px;
+    font-weight: bold;
     line-height: 1.5;
 }
 
@@ -253,6 +254,7 @@ footer {
     }
     header h1 {
         width: 75%;
+        font-size: 20px;
         padding: 12px;
     }
     header nav {
