@@ -14,18 +14,24 @@ body {
 }
 
 header {
-    padding: 20px 10% 20px 0;
     background-color: #d4dedd;
     align-items: center;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     line-height: 1;
 }
 
+.portrait {
+    padding: 38px 2% 15px 8%;
+    background-image: url(../images/portrait2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 25px 25px 0;
+}
+
 header h1 {
-    padding: 8px 2% 8px 8%;
-    font-size: 35px;
+    padding: 15px 2% 10px 8%;
+    font-size: 28px;
     background-color: #abb4ae;
 }
 
@@ -38,6 +44,7 @@ header h1 span {
 header nav {
     display: flex;
     flex-wrap: wrap;
+    flex: 2%;
 }
 
 header nav li {
@@ -64,3 +71,163 @@ nav a:hover {
     background-color: #565751;
     background-size: 100%;
 }
+
+/* image obtained from Pexels by Gabriela Palai */
+.train-hero {
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: auto;
+    background-image: url(../images/pexels-gabriela-palai-507410.jpg);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.train-hero h2{
+    margin-block-end: ;
+    padding: 15px 15px;
+    color: #d4dedd;
+    display: inline;
+    font-style: italic;
+    font-size: 35px;
+    background-color: rgb(131, 76, 76);
+    border-radius: 35px;
+}
+
+.train-hero div {
+    flex: 0 0 40%;
+}
+
+main {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 15px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.main-page {
+    margin: auto;
+}
+
+.main-sections {
+    padding: 15px 0;
+    margin: 25px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.main-sections > h2 {
+    margin: 0;
+    display: block;
+    font-size: 2em;
+    flex: 0 0 22%;
+    border-bottom: 10px solid rgb(135, 97, 69);
+    justify-content: right;
+    text-align: right;
+    padding-right: 20px;
+    box-shadow: 2px 3px rgb(52, 35, 16);
+}
+
+.main-sections > div {
+    flex: 0 0 75%;
+}
+
+.main-sections p {
+    color: #2e2f2a;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-box {
+    background-color: #565751;
+    padding: 8px 10px;
+    background-color: #949999;
+    min-height: 200px;
+    max-height: 200px;
+    min-width: 45%;
+    max-width: none;
+    display: flex;
+    flex-basis: auto;
+    align-items: auto;
+    padding: 0 0 30px 0;
+    margin: 6px;
+    text-decoration: solid;
+    text-align: bottom;
+    transition: all 1s;
+    font-size: 20px;
+    box-shadow: #565751 2px 5px;
+}
+
+.container-box:first-child {
+    min-height: 200px;
+    min-width: 91%;
+    flex-basis: auto;
+}
+
+
+.machu {
+    background: url(..//images/pexels-sergei-a-2539417.jpg);
+    background-size: cover;
+    background-position: center;
+    color: darkblue;
+}
+
+.sailing {
+    background: url(..//images/pexels-peter-simmons-76978.jpg);
+    background-size: cover;
+    background-position: center;
+    color: darkviolet;
+}
+
+.forest {
+    background: url(..//images/pexels-lumn-167698.jpg);
+    background-size: cover;
+    background-position: center;
+    color: chartreuse;
+    text-align: center;
+}
+
+.ski {
+    background: url(..//images/pexels-kirill-lazarev-8532484.jpg);
+    background-size: cover;
+    background-position: center;
+    color: red;
+}
+
+.vacation {
+    background: url(..//images/pexels-jimmy-teoh-1010657.jpg);
+    background-size: cover;
+    background-position: center;
+    color: blue;
+}
+
+.ski h3 {
+    flex: 0 0 12%;
+    flex-direction: row;
+}
+
+.contact a {
+    color: #565751;
+    background-color: #bfb7a4;
+    font-weight: bold;
+    display: inline;
+    padding: 3px 3px;
+    transition: all 1s;
+    font-size: 20px;
+    text-decoration: solid;
+    margin: 28px;
+}
+
+ 
