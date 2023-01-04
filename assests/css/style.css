@@ -181,10 +181,11 @@ main {
 }
 /* images obtained from Pexels */
 .machu {
-    background: url(..//images/pexels-sergei-a-2539417.jpg);
+    background: url(..//images/1126028-3840x2160-desktop-4k-canadian-football-wallpaper-photo.jpg);
     background-size: cover;
     background-position: center;
-    color: darkblue;
+    color: bisque;
+    font-size: 35px;
 }
 
 .sailing {
