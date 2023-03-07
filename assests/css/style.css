@@ -160,7 +160,7 @@ main {
     background-color: #949999;
     min-height: 300px;
     max-height: 300px;
-    min-width: 45%;
+    min-width: 50%;
     max-width: none;
     display: flex;
     flex-basis: auto;
@@ -176,7 +176,7 @@ main {
 
 .container-box:first-child {
     min-height: 400px;
-    min-width: 91%;
+    min-width: 50%;
     flex-basis: auto;
 }
 /* images obtained from Pexels */
@@ -184,15 +184,20 @@ main {
     background: url(..//images/1126028-3840x2160-desktop-4k-canadian-football-wallpaper-photo.jpg);
     background-size: cover;
     background-position: center;
+    font-size: 30px;
     color: bisque;
-    font-size: 35px;
+    box-shadow: #565751 2px 5px;
 }
 
-.sailing {
-    background: url(..//images/pexels-peter-simmons-76978.jpg);
+.nomads {
+    background: url(..//images/pexels-airam-datoon-11436024.jpg);
     background-size: cover;
     background-position: center;
-    color: darkviolet;
+    padding: 0%;
+    color: red;
+    text-align: top;
+    font-weight: 600;
+    font-size: 30px;
 }
 
 .forest {
